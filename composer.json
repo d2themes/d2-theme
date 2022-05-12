@@ -1,0 +1,22 @@
+{
+  "name": "d2/theme",
+  "type": "library",
+  "description": "Core package, designed to be extended and used to build a config-driven WordPress theme.",
+  "license": "MIT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Craig Simpson",
+      "homepage": "https://github.com/craigsimps",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "D2\\Theme\\": "src/"
+    }
+  }
+}
